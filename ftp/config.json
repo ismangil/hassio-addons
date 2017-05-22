@@ -1,0 +1,17 @@
+{
+  "name": "FTP server",
+  "version": "0.1",
+  "slug": "ftp",
+  "description": "Upload files to your server over FTP",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+ 
+  },
+  "schema": {
+ 
+  },
+  "ports": {
+    "21/tcp": 21
+  }
+}
